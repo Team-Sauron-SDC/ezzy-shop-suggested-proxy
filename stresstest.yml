@@ -12,21 +12,21 @@ config:
       arrivalRate: 10
       maxVusers: 10
       name: "10 users for 1 minute"
-    # - pause: 30
-    # - duration: 180
-    #   arrivalRate: 100
-    #   maxVusers: 100
-    #   name: "100 users for 3 minutes"
-    # - pause: 30
-    # - duration: 30
-    #   arrivalRate: 100
-    #   rampTo: 500
-    #   maxVusers: 500
-    #   name: "Ramping up to 1000 users"
-    # - duration: 180
-    #   arrivalRate: 500
-    #   maxVusers: 500
-    #   name: "500 users, each sending 20 requests for 3 minutes"
+    - pause: 30
+    - duration: 180
+      arrivalRate: 100
+      maxVusers: 100
+      name: "100 users for 3 minutes"
+    - pause: 30
+    - duration: 30
+      arrivalRate: 100
+      rampTo: 500
+      maxVusers: 500
+      name: "Ramping up to 1000 users"
+    - duration: 180
+      arrivalRate: 500
+      maxVusers: 500
+      name: "500 users, each sending 30 requests for 3 minutes"
 scenarios:
   - name: "Get suggested"
     weight: 70
