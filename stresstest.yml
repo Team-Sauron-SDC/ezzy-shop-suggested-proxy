@@ -38,13 +38,13 @@ scenarios:
             function: "getRandomPage"
           -
             get:
-              url: '/{{id}}'
+              url: '/products/{{id}}'
   - name: "Post suggested"
     weight: 30
     flow:
       - function: "randomDataGen"
       - post:
-          url: "/1"
+          url: "/products/1"
           json:
             shopID: "{{shopID}}"
             shopName: "{{shopName}}"
