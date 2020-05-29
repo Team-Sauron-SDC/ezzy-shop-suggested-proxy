@@ -1,1 +1,5 @@
 docker-compose.yml
+node_modules
+*.env
+artillery_report*
+newrelic_*
