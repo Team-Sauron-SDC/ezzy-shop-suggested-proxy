@@ -1,6 +1,6 @@
 # ShoppR
 
-> ShoppR is a shop information and related products module for an eCommerce website.
+> ShoppR is an eCommerce website displaying various shops and products information.
 
 ## Related Projects
 
