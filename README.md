@@ -17,7 +17,7 @@
 
 ## Usage
 
-> Some usage instructions
+> This app contains unique pages from /1 to /10000000. Feel free to check out any pages between then. 
 
 ## Requirements
 
