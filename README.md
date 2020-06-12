@@ -1,13 +1,13 @@
-# Project Name
+# ShoppR
 
-> Project description
+> ShoppR is a shop information and related products module for an eCommerce website.
 
 ## Related Projects
 
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
+  - https://github.com/Team-Sauron-SDC/shmetsy-reviews
+  - https://github.com/Team-Sauron-SDC/shmetsy-suggested-service
+  - https://github.com/Team-Sauron-SDC/Shmetsy-Info-Service
+  - https://github.com/Team-Sauron-SDC/Shmetsy-carousel
 
 ## Table of Contents
 
@@ -21,19 +21,20 @@
 
 ## Requirements
 
-An `nvmrc` file is included if using [nvm](https://github.com/creationix/nvm).
+This app uses the `dotenv` library. From the root directory, create a `.env` file and put in: 
 
-- Node 6.13.0
-- etc
-
-## Development
+```sh
+REVIEW_URL=<your_url>
+SUGGESTED_URL=<your_url>
+INFO_URL=<your_url>
+CAROUSEL_URL=<your_url>
+```
 
 ### Installing Dependencies
 
 From within the root directory:
 
 ```sh
-npm install -g webpack
 npm install
 ```
 
