@@ -19,6 +19,11 @@
 
 > This app contains unique pages from /1 to /10000000. Feel free to check out any pages between then. 
 
+> To start up a local server: 
+```sh
+npm start
+```
+
 ## Requirements
 
 This app uses the `dotenv` library. From the root directory, create a `.env` file and put in: 
