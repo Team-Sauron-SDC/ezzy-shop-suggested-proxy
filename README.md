@@ -1,6 +1,6 @@
-# ShoppR
+# Ezzy Shop
 
-> ShoppR is an eCommerce website displaying various shops and products information.
+> Ezzy Shop is an eCommerce website displaying various shops and products information.
 
 ## Related Projects
 
